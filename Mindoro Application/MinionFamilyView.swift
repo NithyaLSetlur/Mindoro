@@ -34,7 +34,7 @@ struct MinionFamilyView: View {
                             Circle()
                                 .frame(width: 103, height: 103)
                                 .foregroundColor(.black)
-                                .position(CGPoint(x: 194.0, y: 179.0))
+                                .position(CGPoint(x: 196, y: 110))
                         }
                     }
                 }
