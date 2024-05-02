@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct JourneyView: View {
-    @State var height: CGFloat = 500
+    @State var height: CGFloat = 770
 //    @State var name: String
 //
 //    init() {
@@ -33,18 +33,18 @@ struct JourneyView: View {
                         .frame(width: 50)
                 }
                 VStack{
-                    Button {
-                        height -= 10
-                    } label: {
-                        Text("+")
-                    }
-                    .buttonStyle(.bordered)
-                    Button {
-                        height += 10
-                    } label: {
-                        Text("-")
-                    }
-                    .buttonStyle(.bordered)
+//                    Button {
+//                        height -= 10
+//                    } label: {
+//                        Text("+")
+//                    }
+//                    .buttonStyle(.bordered)
+//                    Button {
+//                        height += 10
+//                    } label: {
+//                        Text("-")
+//                    }
+//                    .buttonStyle(.bordered)
                 }
                 VStack{
                     Spacer()

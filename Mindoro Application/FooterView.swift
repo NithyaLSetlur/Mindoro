@@ -14,6 +14,9 @@ struct FooterView: View {
     @State private var showEditProfile = false
     @State private var isShowingTimer = false
     @State private var isShowingHome = false
+    @State private var showLogout = false
+    @State private var isShowingFamily = false
+    @State private var isShowingStore = false
 
     var body: some View {
         NavigationView {
@@ -54,23 +57,29 @@ struct FooterView: View {
                     .frame(maxWidth: .infinity)
                 }
 
-                Button(action: {
-                    selectedIcon = "person.3"
-                }) {
-                    Image(systemName: selectedIcon == "person.3" ? "person.3.fill" : "person.3")
-                        .foregroundColor(.blue)
-                        .font(.system(size: 30))
+                NavigationLink(destination: MinionFamilyView(), isActive: $isShowingFamily) {
+                    Button(action: {
+                        selectedIcon = "person.3"
+                        isShowingFamily = true
+                    }) {
+                        Image(systemName: selectedIcon == "person.3" ? "person.3.fill" : "person.3")
+                            .foregroundColor(.blue)
+                            .font(.system(size: 30))
+                    }
+                    .frame(maxWidth: .infinity)
                 }
-                .frame(maxWidth: .infinity)
 
-                Button(action: {
-                    selectedIcon = "cart"
-                }) {
-                    Image(systemName: selectedIcon == "cart" ? "cart.fill" : "cart")
-                        .foregroundColor(.blue)
-                        .font(.system(size: 30))
+                NavigationLink(destination: MinionShopView(), isActive: $isShowingStore) {
+                    Button(action: {
+                        selectedIcon = "cart"
+                        isShowingStore = true
+                    }) {
+                        Image(systemName: selectedIcon == "cart" ? "cart.fill" : "cart")
+                            .foregroundColor(.blue)
+                            .font(.system(size: 30))
+                    }
+                    .frame(maxWidth: .infinity)
                 }
-                .frame(maxWidth: .infinity)
 
                 Spacer().frame(width: 20)
             }
@@ -102,6 +111,12 @@ struct FooterView: View {
                 }
                 .hidden()
             )
+            .background(
+                NavigationLink(destination: LoginView(), isActive: $showLogout) {
+                    EmptyView()
+                }
+                .hidden()
+            )
         }
     }
 
@@ -115,7 +130,7 @@ struct FooterView: View {
     }
 
     func logOut() {
-        // Implement the action for logging out
+        showLogout = true
     }
 }
 

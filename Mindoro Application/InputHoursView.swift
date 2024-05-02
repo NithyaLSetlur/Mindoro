@@ -5,6 +5,13 @@
 //  Created by Nithya Setlur on 1/5/2024.
 //
 
+//
+//  InputHoursView.swift
+//  Mindoro Application
+//
+//  Created by Nithya Setlur on 1/5/2024.
+//
+
 import SwiftUI
 
 struct InputHoursView: View {
@@ -54,7 +61,7 @@ struct InputHoursView: View {
                         .padding()
                         .foregroundColor(.white)
                 }
-                .disabled(isSaving)
+//                .disabled(isSaving)
                 .padding()
                 .buttonStyle(.borderedProminent)
                 .buttonBorderShape(.capsule)
@@ -80,6 +87,8 @@ struct InputHoursView: View {
 
 struct InputHoursView_Previews: PreviewProvider {
     static var previews: some View {
-        InputHoursView()
+        NavigationView{
+            InputHoursView()
+        }
     }
 }

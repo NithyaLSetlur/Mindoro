@@ -53,6 +53,7 @@ struct ProfileView: View {
                 .padding(.bottom)
             }
             
+            
             // Change username section
             Text("Change Username")
                 .font(.title2)

@@ -80,6 +80,12 @@ struct TimerView: View {
                     }
                     .disabled(isFiveMinuteTimerActive)
                 }
+                VStack {
+                    Spacer()
+                        .frame(height: 150)
+                    FooterView()
+                        .frame(width: 395, height: 40)
+                }
             }
             .navigationTitle("")
         }

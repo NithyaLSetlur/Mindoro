@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4C22479F2BE0871F002DD2FF /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22479E2BE0871F002DD2FF /* JourneyView.swift */; };
-		4C91ECC32BE1D18A000AF4F9 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91ECC22BE1D18A000AF4F9 /* FamilyView.swift */; };
+		4C2EB0672BE337B000BCDE6F /* MinionShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EB0662BE337B000BCDE6F /* MinionShopView.swift */; };
+		4C2EB0692BE3381700BCDE6F /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EB0682BE3381700BCDE6F /* CollectionView.swift */; };
+		4C2EB06B2BE33C8A00BCDE6F /* MinionFamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EB06A2BE33C8A00BCDE6F /* MinionFamilyView.swift */; };
+		4C2EB06D2BE3412C00BCDE6F /* CollectionView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EB06C2BE3412C00BCDE6F /* CollectionView1.swift */; };
 		4C91ECC52BE1D1B9000AF4F9 /* InputHourPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91ECC42BE1D1B9000AF4F9 /* InputHourPopupView.swift */; };
 		4C91ECC72BE1D1EA000AF4F9 /* MotivationalPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91ECC62BE1D1EA000AF4F9 /* MotivationalPopupView.swift */; };
 		4CB3B77C2BDF21CF00A7D861 /* Mindoro_ApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B77B2BDF21CF00A7D861 /* Mindoro_ApplicationApp.swift */; };
@@ -48,7 +51,10 @@
 
 /* Begin PBXFileReference section */
 		4C22479E2BE0871F002DD2FF /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
-		4C91ECC22BE1D18A000AF4F9 /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		4C2EB0662BE337B000BCDE6F /* MinionShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionShopView.swift; sourceTree = "<group>"; };
+		4C2EB0682BE3381700BCDE6F /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		4C2EB06A2BE33C8A00BCDE6F /* MinionFamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionFamilyView.swift; sourceTree = "<group>"; };
+		4C2EB06C2BE3412C00BCDE6F /* CollectionView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView1.swift; sourceTree = "<group>"; };
 		4C91ECC42BE1D1B9000AF4F9 /* InputHourPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputHourPopupView.swift; sourceTree = "<group>"; };
 		4C91ECC62BE1D1EA000AF4F9 /* MotivationalPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalPopupView.swift; sourceTree = "<group>"; };
 		4CB3B7782BDF21CF00A7D861 /* Mindoro Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindoro Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,8 +139,11 @@
 				4CE732272BE1C90B009926B8 /* TimerView.swift */,
 				4CE732252BE1B6CD009926B8 /* ProfileView.swift */,
 				4CE732232BE1B67E009926B8 /* InputHoursView.swift */,
-				4C91ECC22BE1D18A000AF4F9 /* FamilyView.swift */,
 				4C91ECC42BE1D1B9000AF4F9 /* InputHourPopupView.swift */,
+				4C2EB0662BE337B000BCDE6F /* MinionShopView.swift */,
+				4C2EB06A2BE33C8A00BCDE6F /* MinionFamilyView.swift */,
+				4C2EB06C2BE3412C00BCDE6F /* CollectionView1.swift */,
+				4C2EB0682BE3381700BCDE6F /* CollectionView.swift */,
 				4C91ECC62BE1D1EA000AF4F9 /* MotivationalPopupView.swift */,
 				4CB3B77F2BDF21D000A7D861 /* Assets.xcassets */,
 				4CB3B7812BDF21D000A7D861 /* Mindoro_Application.entitlements */,
@@ -299,19 +308,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CB3B77E2BDF21CF00A7D861 /* ContentView.swift in Sources */,
-				4C91ECC32BE1D18A000AF4F9 /* FamilyView.swift in Sources */,
 				4CB486792BDF5B8400B7E4C7 /* WelcomeView.swift in Sources */,
 				4CB486772BDF341300B7E4C7 /* SignUpView.swift in Sources */,
 				4CE732222BE1B615009926B8 /* FooterView.swift in Sources */,
+				4C2EB06B2BE33C8A00BCDE6F /* MinionFamilyView.swift in Sources */,
 				4C91ECC72BE1D1EA000AF4F9 /* MotivationalPopupView.swift in Sources */,
 				4C22479F2BE0871F002DD2FF /* JourneyView.swift in Sources */,
 				4CB486732BDF332700B7E4C7 /* LoginView.swift in Sources */,
 				4CE732282BE1C90B009926B8 /* TimerView.swift in Sources */,
+				4C2EB0692BE3381700BCDE6F /* CollectionView.swift in Sources */,
 				4C91ECC52BE1D1B9000AF4F9 /* InputHourPopupView.swift in Sources */,
 				4CB4867D2BDF5C2300B7E4C7 /* InstructionsView.swift in Sources */,
 				4CB4867B2BDF5BDF00B7E4C7 /* LoadingView.swift in Sources */,
 				4CB3B77C2BDF21CF00A7D861 /* Mindoro_ApplicationApp.swift in Sources */,
+				4C2EB06D2BE3412C00BCDE6F /* CollectionView1.swift in Sources */,
 				4CE732262BE1B6CD009926B8 /* ProfileView.swift in Sources */,
+				4C2EB0672BE337B000BCDE6F /* MinionShopView.swift in Sources */,
 				4CE732242BE1B67E009926B8 /* InputHoursView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
