@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C22479F2BE0871F002DD2FF /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C22479E2BE0871F002DD2FF /* JourneyView.swift */; };
+		4C91ECC32BE1D18A000AF4F9 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91ECC22BE1D18A000AF4F9 /* FamilyView.swift */; };
+		4C91ECC52BE1D1B9000AF4F9 /* InputHourPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91ECC42BE1D1B9000AF4F9 /* InputHourPopupView.swift */; };
+		4C91ECC72BE1D1EA000AF4F9 /* MotivationalPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C91ECC62BE1D1EA000AF4F9 /* MotivationalPopupView.swift */; };
+		4CB3B77C2BDF21CF00A7D861 /* Mindoro_ApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B77B2BDF21CF00A7D861 /* Mindoro_ApplicationApp.swift */; };
+		4CB3B77E2BDF21CF00A7D861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B77D2BDF21CF00A7D861 /* ContentView.swift */; };
+		4CB3B7802BDF21D000A7D861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3B77F2BDF21D000A7D861 /* Assets.xcassets */; };
+		4CB3B7842BDF21D000A7D861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB3B7832BDF21D000A7D861 /* Preview Assets.xcassets */; };
+		4CB3B78E2BDF21D100A7D861 /* Mindoro_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B78D2BDF21D100A7D861 /* Mindoro_ApplicationTests.swift */; };
+		4CB3B7982BDF21D100A7D861 /* Mindoro_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B7972BDF21D100A7D861 /* Mindoro_ApplicationUITests.swift */; };
+		4CB3B79A2BDF21D100A7D861 /* Mindoro_ApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB3B7992BDF21D100A7D861 /* Mindoro_ApplicationUITestsLaunchTests.swift */; };
+		4CB486732BDF332700B7E4C7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB486722BDF332700B7E4C7 /* LoginView.swift */; };
+		4CB486772BDF341300B7E4C7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB486762BDF341300B7E4C7 /* SignUpView.swift */; };
+		4CB486792BDF5B8400B7E4C7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB486782BDF5B8400B7E4C7 /* WelcomeView.swift */; };
+		4CB4867B2BDF5BDF00B7E4C7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4867A2BDF5BDF00B7E4C7 /* LoadingView.swift */; };
+		4CB4867D2BDF5C2300B7E4C7 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4867C2BDF5C2300B7E4C7 /* InstructionsView.swift */; };
+		4CE732222BE1B615009926B8 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE732212BE1B615009926B8 /* FooterView.swift */; };
+		4CE732242BE1B67E009926B8 /* InputHoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE732232BE1B67E009926B8 /* InputHoursView.swift */; };
+		4CE732262BE1B6CD009926B8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE732252BE1B6CD009926B8 /* ProfileView.swift */; };
+		4CE732282BE1C90B009926B8 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE732272BE1C90B009926B8 /* TimerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CB3B78A2BDF21D100A7D861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB3B7702BDF21CF00A7D861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB3B7772BDF21CF00A7D861;
+			remoteInfo = "Mindoro Application";
+		};
+		4CB3B7942BDF21D100A7D861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CB3B7702BDF21CF00A7D861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CB3B7772BDF21CF00A7D861;
+			remoteInfo = "Mindoro Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C22479E2BE0871F002DD2FF /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		4C91ECC22BE1D18A000AF4F9 /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		4C91ECC42BE1D1B9000AF4F9 /* InputHourPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputHourPopupView.swift; sourceTree = "<group>"; };
+		4C91ECC62BE1D1EA000AF4F9 /* MotivationalPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalPopupView.swift; sourceTree = "<group>"; };
+		4CB3B7782BDF21CF00A7D861 /* Mindoro Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mindoro Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB3B77B2BDF21CF00A7D861 /* Mindoro_ApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindoro_ApplicationApp.swift; sourceTree = "<group>"; };
+		4CB3B77D2BDF21CF00A7D861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CB3B77F2BDF21D000A7D861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB3B7812BDF21D000A7D861 /* Mindoro_Application.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mindoro_Application.entitlements; sourceTree = "<group>"; };
+		4CB3B7832BDF21D000A7D861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CB3B7892BDF21D100A7D861 /* Mindoro ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindoro ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB3B78D2BDF21D100A7D861 /* Mindoro_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindoro_ApplicationTests.swift; sourceTree = "<group>"; };
+		4CB3B7932BDF21D100A7D861 /* Mindoro ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mindoro ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB3B7972BDF21D100A7D861 /* Mindoro_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindoro_ApplicationUITests.swift; sourceTree = "<group>"; };
+		4CB3B7992BDF21D100A7D861 /* Mindoro_ApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindoro_ApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CB486722BDF332700B7E4C7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4CB486762BDF341300B7E4C7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		4CB486782BDF5B8400B7E4C7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4CB4867A2BDF5BDF00B7E4C7 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		4CB4867C2BDF5C2300B7E4C7 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		4CE732212BE1B615009926B8 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		4CE732232BE1B67E009926B8 /* InputHoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputHoursView.swift; sourceTree = "<group>"; };
+		4CE732252BE1B6CD009926B8 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4CE732272BE1C90B009926B8 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB3B7752BDF21CF00A7D861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3B7862BDF21D100A7D861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3B7902BDF21D100A7D861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB3B76F2BDF21CF00A7D861 = {
+			isa = PBXGroup;
+			children = (
+				4CB3B77A2BDF21CF00A7D861 /* Mindoro Application */,
+				4CB3B78C2BDF21D100A7D861 /* Mindoro ApplicationTests */,
+				4CB3B7962BDF21D100A7D861 /* Mindoro ApplicationUITests */,
+				4CB3B7792BDF21CF00A7D861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB3B7792BDF21CF00A7D861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3B7782BDF21CF00A7D861 /* Mindoro Application.app */,
+				4CB3B7892BDF21D100A7D861 /* Mindoro ApplicationTests.xctest */,
+				4CB3B7932BDF21D100A7D861 /* Mindoro ApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB3B77A2BDF21CF00A7D861 /* Mindoro Application */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3B77B2BDF21CF00A7D861 /* Mindoro_ApplicationApp.swift */,
+				4CB3B77D2BDF21CF00A7D861 /* ContentView.swift */,
+				4CB4867A2BDF5BDF00B7E4C7 /* LoadingView.swift */,
+				4CB486782BDF5B8400B7E4C7 /* WelcomeView.swift */,
+				4CB4867C2BDF5C2300B7E4C7 /* InstructionsView.swift */,
+				4CB486722BDF332700B7E4C7 /* LoginView.swift */,
+				4CB486762BDF341300B7E4C7 /* SignUpView.swift */,
+				4C22479E2BE0871F002DD2FF /* JourneyView.swift */,
+				4CE732212BE1B615009926B8 /* FooterView.swift */,
+				4CE732272BE1C90B009926B8 /* TimerView.swift */,
+				4CE732252BE1B6CD009926B8 /* ProfileView.swift */,
+				4CE732232BE1B67E009926B8 /* InputHoursView.swift */,
+				4C91ECC22BE1D18A000AF4F9 /* FamilyView.swift */,
+				4C91ECC42BE1D1B9000AF4F9 /* InputHourPopupView.swift */,
+				4C91ECC62BE1D1EA000AF4F9 /* MotivationalPopupView.swift */,
+				4CB3B77F2BDF21D000A7D861 /* Assets.xcassets */,
+				4CB3B7812BDF21D000A7D861 /* Mindoro_Application.entitlements */,
+				4CB3B7822BDF21D000A7D861 /* Preview Content */,
+			);
+			path = "Mindoro Application";
+			sourceTree = "<group>";
+		};
+		4CB3B7822BDF21D000A7D861 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3B7832BDF21D000A7D861 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CB3B78C2BDF21D100A7D861 /* Mindoro ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3B78D2BDF21D100A7D861 /* Mindoro_ApplicationTests.swift */,
+			);
+			path = "Mindoro ApplicationTests";
+			sourceTree = "<group>";
+		};
+		4CB3B7962BDF21D100A7D861 /* Mindoro ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3B7972BDF21D100A7D861 /* Mindoro_ApplicationUITests.swift */,
+				4CB3B7992BDF21D100A7D861 /* Mindoro_ApplicationUITestsLaunchTests.swift */,
+			);
+			path = "Mindoro ApplicationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB3B7772BDF21CF00A7D861 /* Mindoro Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB3B79D2BDF21D100A7D861 /* Build configuration list for PBXNativeTarget "Mindoro Application" */;
+			buildPhases = (
+				4CB3B7742BDF21CF00A7D861 /* Sources */,
+				4CB3B7752BDF21CF00A7D861 /* Frameworks */,
+				4CB3B7762BDF21CF00A7D861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mindoro Application";
+			productName = "Mindoro Application";
+			productReference = 4CB3B7782BDF21CF00A7D861 /* Mindoro Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CB3B7882BDF21D100A7D861 /* Mindoro ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB3B7A02BDF21D100A7D861 /* Build configuration list for PBXNativeTarget "Mindoro ApplicationTests" */;
+			buildPhases = (
+				4CB3B7852BDF21D100A7D861 /* Sources */,
+				4CB3B7862BDF21D100A7D861 /* Frameworks */,
+				4CB3B7872BDF21D100A7D861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB3B78B2BDF21D100A7D861 /* PBXTargetDependency */,
+			);
+			name = "Mindoro ApplicationTests";
+			productName = "Mindoro ApplicationTests";
+			productReference = 4CB3B7892BDF21D100A7D861 /* Mindoro ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CB3B7922BDF21D100A7D861 /* Mindoro ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB3B7A32BDF21D100A7D861 /* Build configuration list for PBXNativeTarget "Mindoro ApplicationUITests" */;
+			buildPhases = (
+				4CB3B78F2BDF21D100A7D861 /* Sources */,
+				4CB3B7902BDF21D100A7D861 /* Frameworks */,
+				4CB3B7912BDF21D100A7D861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CB3B7952BDF21D100A7D861 /* PBXTargetDependency */,
+			);
+			name = "Mindoro ApplicationUITests";
+			productName = "Mindoro ApplicationUITests";
+			productReference = 4CB3B7932BDF21D100A7D861 /* Mindoro ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB3B7702BDF21CF00A7D861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					4CB3B7772BDF21CF00A7D861 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					4CB3B7882BDF21D100A7D861 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4CB3B7772BDF21CF00A7D861;
+					};
+					4CB3B7922BDF21D100A7D861 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 4CB3B7772BDF21CF00A7D861;
+					};
+				};
+			};
+			buildConfigurationList = 4CB3B7732BDF21CF00A7D861 /* Build configuration list for PBXProject "Mindoro Application" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB3B76F2BDF21CF00A7D861;
+			productRefGroup = 4CB3B7792BDF21CF00A7D861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB3B7772BDF21CF00A7D861 /* Mindoro Application */,
+				4CB3B7882BDF21D100A7D861 /* Mindoro ApplicationTests */,
+				4CB3B7922BDF21D100A7D861 /* Mindoro ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB3B7762BDF21CF00A7D861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB3B7842BDF21D000A7D861 /* Preview Assets.xcassets in Resources */,
+				4CB3B7802BDF21D000A7D861 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3B7872BDF21D100A7D861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3B7912BDF21D100A7D861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB3B7742BDF21CF00A7D861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB3B77E2BDF21CF00A7D861 /* ContentView.swift in Sources */,
+				4C91ECC32BE1D18A000AF4F9 /* FamilyView.swift in Sources */,
+				4CB486792BDF5B8400B7E4C7 /* WelcomeView.swift in Sources */,
+				4CB486772BDF341300B7E4C7 /* SignUpView.swift in Sources */,
+				4CE732222BE1B615009926B8 /* FooterView.swift in Sources */,
+				4C91ECC72BE1D1EA000AF4F9 /* MotivationalPopupView.swift in Sources */,
+				4C22479F2BE0871F002DD2FF /* JourneyView.swift in Sources */,
+				4CB486732BDF332700B7E4C7 /* LoginView.swift in Sources */,
+				4CE732282BE1C90B009926B8 /* TimerView.swift in Sources */,
+				4C91ECC52BE1D1B9000AF4F9 /* InputHourPopupView.swift in Sources */,
+				4CB4867D2BDF5C2300B7E4C7 /* InstructionsView.swift in Sources */,
+				4CB4867B2BDF5BDF00B7E4C7 /* LoadingView.swift in Sources */,
+				4CB3B77C2BDF21CF00A7D861 /* Mindoro_ApplicationApp.swift in Sources */,
+				4CE732262BE1B6CD009926B8 /* ProfileView.swift in Sources */,
+				4CE732242BE1B67E009926B8 /* InputHoursView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3B7852BDF21D100A7D861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB3B78E2BDF21D100A7D861 /* Mindoro_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB3B78F2BDF21D100A7D861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB3B79A2BDF21D100A7D861 /* Mindoro_ApplicationUITestsLaunchTests.swift in Sources */,
+				4CB3B7982BDF21D100A7D861 /* Mindoro_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CB3B78B2BDF21D100A7D861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB3B7772BDF21CF00A7D861 /* Mindoro Application */;
+			targetProxy = 4CB3B78A2BDF21D100A7D861 /* PBXContainerItemProxy */;
+		};
+		4CB3B7952BDF21D100A7D861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CB3B7772BDF21CF00A7D861 /* Mindoro Application */;
+			targetProxy = 4CB3B7942BDF21D100A7D861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CB3B79B2BDF21D100A7D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CB3B79C2BDF21D100A7D861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4CB3B79E2BDF21D100A7D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mindoro Application/Mindoro_Application.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mindoro Application/Preview Content\"";
+				DEVELOPMENT_TEAM = WMGKQ8R2QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.applefoundation.nithya.Mindoro-Application";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = au.edu.uts.mindoro123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB3B79F2BDF21D100A7D861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mindoro Application/Mindoro_Application.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mindoro Application/Preview Content\"";
+				DEVELOPMENT_TEAM = WMGKQ8R2QD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.applefoundation.nithya.Mindoro-Application";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = au.edu.uts.mindoro123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CB3B7A12BDF21D100A7D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMGKQ8R2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.applefoundation.nithya.Mindoro-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindoro Application.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mindoro Application";
+			};
+			name = Debug;
+		};
+		4CB3B7A22BDF21D100A7D861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMGKQ8R2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.applefoundation.nithya.Mindoro-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mindoro Application.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mindoro Application";
+			};
+			name = Release;
+		};
+		4CB3B7A42BDF21D100A7D861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMGKQ8R2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.applefoundation.nithya.Mindoro-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mindoro Application";
+			};
+			name = Debug;
+		};
+		4CB3B7A52BDF21D100A7D861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMGKQ8R2QD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.applefoundation.nithya.Mindoro-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mindoro Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB3B7732BDF21CF00A7D861 /* Build configuration list for PBXProject "Mindoro Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB3B79B2BDF21D100A7D861 /* Debug */,
+				4CB3B79C2BDF21D100A7D861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB3B79D2BDF21D100A7D861 /* Build configuration list for PBXNativeTarget "Mindoro Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB3B79E2BDF21D100A7D861 /* Debug */,
+				4CB3B79F2BDF21D100A7D861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB3B7A02BDF21D100A7D861 /* Build configuration list for PBXNativeTarget "Mindoro ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB3B7A12BDF21D100A7D861 /* Debug */,
+				4CB3B7A22BDF21D100A7D861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB3B7A32BDF21D100A7D861 /* Build configuration list for PBXNativeTarget "Mindoro ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB3B7A42BDF21D100A7D861 /* Debug */,
+				4CB3B7A52BDF21D100A7D861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB3B7702BDF21CF00A7D861 /* Project object */;
+}
