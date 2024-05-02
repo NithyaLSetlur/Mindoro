@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct JourneyView: View {
-    @State private var maxHeight: CGFloat = 750
+    @State var height: CGFloat = 500
 //    @State var name: String
-//    
+//
 //    init() {
 //        name = "Wes"
 //    }
-//    
+//
 //    init(name: String) {
 //        self.name = name
 //    }
@@ -24,7 +24,7 @@ struct JourneyView: View {
             ZStack {
                 Rectangle()
                     .fill(.brown)
-                    .frame(height: maxHeight)
+                    .offset(y: height)
                 HStack{
                     Image("Path")
                         .resizable()
@@ -34,13 +34,13 @@ struct JourneyView: View {
                 }
                 VStack{
                     Button {
-                        maxHeight -= 10
+                        height -= 10
                     } label: {
                         Text("+")
                     }
                     .buttonStyle(.bordered)
                     Button {
-                        maxHeight += 10
+                        height += 10
                     } label: {
                         Text("-")
                     }
@@ -56,19 +56,7 @@ struct JourneyView: View {
             
             Spacer()
                 .frame(height: 90)
-            
-            .padding()
         }
-    }
-    // Function to receive updates from InputHoursView
-    func updateMaxHeight(newHeight: Int) {
-        maxHeight = CGFloat(newHeight) * 25 // Assuming 1 hour = 25 units of height
-    }
-    
-    // Function to receive updates from TimerView
-    func timerCompleted(sessionsCompleted: Int) {
-        let heightIncrement = CGFloat(sessionsCompleted) * 750 // Each 30-minute session adds 750 units of height
-        maxHeight += heightIncrement
     }
 }
 

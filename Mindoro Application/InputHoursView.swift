@@ -11,8 +11,9 @@ struct InputHoursView: View {
     @State private var selectedHours = 0
     let hours = Array(0...50)
     @State private var isSaving = false
+
     @State private var navigateToJourney = false // State to control navigation
-    
+
     var body: some View {
         NavigationView {
             VStack {
@@ -53,29 +54,27 @@ struct InputHoursView: View {
                         .padding()
                         .foregroundColor(.white)
                 }
+                .disabled(isSaving)
                 .padding()
                 .buttonStyle(.borderedProminent)
                 .buttonBorderShape(.capsule)
                 .tint(.black)
                 
+                // Navigation link to JourneyView
                 NavigationLink(
-                    destination: JourneyView().onAppear {
-                        // Pass selected hours to JourneyView
-                        (UIApplication.shared.delegate as? AppDelegate)?.window?.rootViewController?.dismiss(animated: true, completion: nil)
-                        JourneyView().updateMaxHeight(newHeight: selectedHours)
-                    },
+                    destination: JourneyView(),
                     isActive: $navigateToJourney,
                     label: { EmptyView() }
                 )
             }
             .padding()
         }
-        
-        func saveSelectedHours() {
-            // Perform saving operation here
-            // For demonstration purpose, simply print the selected hour
-            print("Selected Hours: \(selectedHours)")
-        }
+    }
+    
+    private func saveSelectedHours() {
+        // Perform saving operation here
+        // For demonstration purpose, simply print the selected hour
+        isSaving = true
     }
 }
 

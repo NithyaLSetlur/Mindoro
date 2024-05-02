@@ -10,7 +10,6 @@ struct TimerView: View {
     @State private var isFiveMinuteTimerActive = false // Track if the five-minute timer is active
     @State private var audioPlayer: AVAudioPlayer!
     @State private var isPausedButtonDisabled = false // Track if pause/resume button should be disabled
-    @State private var sessionsCompleted = 0
     
     var body: some View {
         NavigationView {
@@ -124,13 +123,6 @@ struct TimerView: View {
                     isFiveMinuteTimerActive = true
                 }
             }
-        }
-        // When a 30-minute timer completes
-        if remainingSeconds == 0 {
-            audioPlayer.play()
-            sessionsCompleted += 1
-            (UIApplication.shared.delegate as? AppDelegate)?.window?.rootViewController?.dismiss(animated: true, completion: nil)
-            JourneyView().timerCompleted(sessionsCompleted: sessionsCompleted)
         }
     }
 
